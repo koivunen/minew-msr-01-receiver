@@ -1,7 +1,7 @@
 [project]
 name = "minew-msr-01"
 version = "0.1.0"
-description = "MineW MSR-01 gateway to a webhook or DB"
+description = "Minew MSR-01 gateway to a webhook or DB"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -10,5 +10,6 @@ dependencies = [
     "coloredlogs>=15.0.1",
     "httpx>=0.28.1",
     "loguru>=0.7.3",
+    "python-dotenv>=1.1.1",
     "structlog>=25.4.0",
 ]
